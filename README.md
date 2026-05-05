@@ -1,3 +1,3 @@
 ﻿# Roshan-portfolio
 
- live preview  https://rajprasadchaurasiya82.github.io/Roshan-portfolio/
+ live preview  https://roshanportfo.netlify.app/
