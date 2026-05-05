@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Roshan Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <a href="#" class="logo">ROSHAN</a>
+
+  <i class="fa-solid fa-bars" id="menu-icon" aria-label="Open menu" role="button" tabindex="0"></i>
+
+  <nav class="navbar" aria-label="Primary">
+    <a href="#" class="active">Home</a>
+    <a href="#showreel">Showreel</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Software</a>
+    <a href="#education">Education</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="home">
+  <div class="home-img">
+    <img src="assets/profile.jpg"  alt="Roshan profile" class="profile-img" />
+  </div>
+
+  <div class="home-content">
+    <h1>Hi, I'm <span>Roshan</span></h1>
+    <h3 class="typing-text">3D Artists | <span id="typing"></span></h3>
+
+    <p>
+      My Name is Roshan Kumar Chaurasiya, and I am i am Still Studying at Parul University B.sc in Design (Animation & VFX).
+    </p>
+
+    <div class="social-icons" aria-label="Social links">
+      <a href="https://wa.me/+919328625789" target="_blank" rel="noreferrer" aria-label="WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+      <a href="https://mail.google.com/mail/?view=cm&to=roshan9706729@gmail.com" target="_blank" aria-label="Email">
+  <i class="fa-solid fa-envelope"></i>
+</a>
+      <a href="https://www.instagram.com/de_vilroshan_?igsh=MTFlMXlpMGR1YXhlNg%3D%3D&utm_source=qr/" target="_blank" rel="noreferrer" aria-label="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="https://www.behance.net/" target="_blank" rel="noreferrer" aria-label="Behance">
+        <i class="fa-brands fa-behance"></i>
+      </a>
+    </div>
+
+    <div class="btn-group">
+      <a href="#projects" class="btn">View Work</a>
+      <a href="#contact" class="btn">Contact</a>
+    </div>
+  </div>
+</section>
+
+<!-- SHOWREEL -->
+<section id="showreel">
+  <h2>Showreel</h2>
+
+  <div class="showreel-container">
+    <div class="showreel-frame">
+      <video
+        class="showreel-video"
+        muted
+        autoplay
+        loop
+        playsinline
+        controls
+        preload="metadata"
+        poster="assets/poster-showreel.svg"
+      >
+        <source src="assets/showreel.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+     <!-- <p class="showreel-note">
+      Replace <code>assets/showreel.mp4</code> with your showreel file for autoplay preview.
+    </p>  -->
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project-container">
+
+    <div class="project-box">
+      <a href="assets/project 1.png" target="_blank">
+      <img src="assets/project 1.png"  alt="Neon Alley thumbnail" class="project-img" />
+      </a>
+      <h3>Mechenical Arm ik fk control</h3>
+    </div>
+
+    <div class="project-box">
+       <a href="assets/project 2.png" target="_blank">
+      <img src="assets/project 2.png" alt="Mech Turntable thumbnail" class="project-img" />
+      </a>
+      <h3>Well with assined material with smooth shaded</h3>
+    </div>
+
+     <div class="project-box">
+      <a href="assets/project 3.png" target="_blank">
+      <img src="assets/project 3.png" alt="Mech Turntable thumbnail" class="project-img" />
+      </a>
+      <h3>Pencils</h3>
+    </div>
+
+     <div class="project-box">
+      <a href="assets/project 4.png" target="_blank">
+      <img src="assets/project 4.png" alt="Mech Turntable thumbnail" class="project-img" />
+      </a>
+      <h3>table Fan</h3>
+    </div>
+
+    <div class="project-box">
+      <a href="assets/project 5.png" target="_blank">
+      <img src="assets/project 5.png" alt="Mech Turntable thumbnail" class="project-img" />
+      </a>
+      <h3>Aftereffect Add</h3>
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2>Software</h2>
+
+  <div class="skills-container">
+    <div class="skill">
+      <p class="skill-label">
+        <img class="skill-logo" src="assets/icon-maya.svg" alt="Autodesk Maya" loading="lazy" />
+        <span>Autodesk Maya</span>
+      </p>
+      <div class="progress">
+        <div class="progress-bar maya"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <p class="skill-label">
+        <img class="skill-logo" src="assets/icon-after-effects.svg" alt="Adobe After Effects" loading="lazy" />
+        <span>Adobe After Effects</span>
+      </p>
+      <div class="progress">
+        <div class="progress-bar ae"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <p class="skill-label">
+        <img class="skill-logo" src="assets/icon-photoshop.svg" alt="Adobe Photoshop" loading="lazy" />
+        <span>Adobe Photoshop</span>
+      </p>
+      <div class="progress">
+        <div class="progress-bar ps"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <p class="skill-label">
+        <img class="skill-logo" src="assets/icon-premiere-pro.svg" alt="Adobe Premiere Pro" loading="lazy" />
+        <span>Adobe Premiere Pro</span>
+      </p>
+      <div class="progress">
+        <div class="progress-bar pr"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <p class="skill-label">
+        <img class="skill-logo" src="assets/icon-animate.svg" alt="Adobe Animate CC" loading="lazy" />
+        <span>Adobe Animate CC</span>
+      </p>
+      <div class="progress">
+        <div class="progress-bar an"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- education -->
+<section id="education" class="education">
+  <h2>Education</h2>
+
+  <div class="education-container">
+
+    <div class="education-card">
+      <h3>Bachelor's Degree</h3>
+      <p class="edu-place">Parul University</p>
+      <p class="edu-year">2024 - Present </p>
+      <p class="edu-desc">Currently Studing as a 3D Artist</p>
+    </div>
+
+    <div class="education-card">
+      <h3>12th</h3>
+      <p class="edu-place">Om National Academy</p>
+      <p class="edu-year">2024</p>
+      <p class="edu-desc">78%</p>
+    </div>
+
+    <div class="education-card">
+      <h3>10th</h3>
+      <p class="edu-place">Trijudhha School, Nepal</p>
+      <p class="edu-year">2022</p>
+      <p class="edu-desc">76%</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- About me -->
+<section class="about-section" id="about">
+  <div class="about-header">
+    <h2>About <span>Me</span></h2>
+  </div>
+
+  <div class="about-container">
+
+     <div class="about-card">
+      <div class="about-icon">🛠️</div>
+      <h3>Skills</h3>
+      <p>
+       Creative <br>Communication <br>project Management
+      </p>
+    </div>
+
+    <div class="about-card">
+      <div class="about-icon">💼</div>
+      <h3>Experience</h3>
+      <h5>2024-2025</h5>
+      <p>
+        3D Modeling <br>
+        Craft <br>
+        Video Graphy
+      </p>
+    </div>
+
+    <div class="about-card">
+      <div class="about-icon">🧩</div>
+      <h3>Tools</h3>
+      <p> Adobe Animate <br>
+        After Effects <br> Premiere Pro <br> Adobe Photoshop</p>
+    </div>
+   
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Contact <span>Me</span></h2>
+
+  <div class="contact-links">
+  
+    <a class="contact-link" href="https://mail.google.com/mail/?view=cm&to=roshan9706729@gmail.com" target="_blank" aria-label="Email"><i class="fa-solid fa-envelope"></i> Email Me</a>
+    <a class="contact-link" href="https://wa.me/" target="_blank" rel="noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+    <a class="contact-link" href="https://www.instagram.com/de_vilroshan_?igsh=MTFlMXlpMGR1YXhlNg%3D%3D&utm_source=qr/" target="_blank" rel="noreferrer"><i class="fa-brands fa-instagram"></i> Instagram</a>
+    <a class="contact-link" href="https://www.behance.net/" target="_blank" rel="noreferrer"><i class="fa-brands fa-behance"></i> Behance</a>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
